@@ -15,7 +15,7 @@ const App: React.FC = () => {
             );
           }}
         >
-          Data Collection Preferences
+          Data Collection Preferences!
         </button>
         <br />
         <img src={logo} className="App-logo" alt="logo" />
