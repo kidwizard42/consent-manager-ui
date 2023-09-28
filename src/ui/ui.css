@@ -1,0 +1,196 @@
+/* doing this instead of '*' bc its better for performance theoretically. correct me if I'm wrong tho */
+a,
+span,
+pre,
+div,
+button,
+ul,
+li,
+b,
+section {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.learnMoreAndCloseXButton {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ConsentManager img {
+  display: block;
+  margin: 0 auto;
+}
+
+.ConsentManager {
+  width: 50vw;
+  max-height: 60vh;
+  background: white;
+  overflow: scroll;
+  margin: 10% 25% 0 25%;
+  position: absolute;
+  z-index: 10000;
+  padding: 2%;
+  color: #282c34;
+}
+
+.configBody {
+  overflow: wrap;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  width: 90%;
+}
+
+.configRequiredText {
+  width: 85%;
+}
+
+a {
+  text-decoration: none;
+  color: #282c34;
+}
+
+.ConsentManager button {
+  background-color: #20a0f5;
+  border: 0;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  min-height: 25px;
+  padding: 5px 15px;
+  margin: 3px;
+}
+
+.ConsentManager button:hover,
+.ConsentManager button:focus {
+  background-color: #0777c1;
+  color: #ffffff;
+}
+
+#denyAllButton,
+#savePreferencesButton {
+  background-color: rgba(81, 79, 79, 0.2);
+  color: #282c34;
+}
+
+#denyAllButton:hover,
+#denyAllButton:focus,
+#savePreferencesButton:hover,
+#savePreferencesButton:focus {
+  background-color: rgba(37, 36, 36, 0.3);
+}
+#close {
+  font-weight: 700;
+  cursor: pointer;
+}
+.nonEssentialPurposeTypes {
+  list-style-type: none;
+  width: 50%;
+  min-width: 250px;
+  margin: 0 auto;
+}
+.nonEssentialLI {
+  margin: 4px 0;
+  position: relative;
+}
+.hide {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.nonEssentialLI .sliderText {
+  position: absolute;
+  bottom: 0;
+  left: 60px;
+  top: 3px;
+}
+
+.nonEssentialLI .tooltip {
+  position: absolute;
+  margin-left: 2px;
+  margin-top: -2px;
+  cursor: pointer;
+  display: inline;
+}
+
+.tooltip .tooltipText {
+  visibility: hidden;
+  width: 120px;
+  background-color: #282c34;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltipText {
+  visibility: visible;
+}
+
+/* ONLY SLIDER CSS BELOW ------------------------------------------------------*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 52px;
+  height: 28px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: '';
+  height: 23px;
+  width: 23px;
+  left: 2px;
+  bottom: 2.5px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #20a0f5;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #20a0f5;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(25px);
+}
+
+.slider.round {
+  border-radius: 17px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
