@@ -1,7 +1,7 @@
 import type { AirgapAPI, TranscendAPI } from 'src/@types/airgap.js';
 import { airgapInit, transcendInit } from './config';
-// import { showConsentManager } from './ui';
-import { showConsentManager } from './ui2';
+import { showConsentManager } from './ui';
+// import { showConsentManager } from './ui2';
 
 export const getAirgap = (): Promise<AirgapAPI> =>
   new Promise((resolve) => {
