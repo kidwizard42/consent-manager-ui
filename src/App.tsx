@@ -19,9 +19,9 @@ const App: React.FC = () => {
         </button>
         <br />
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        {/* <p>
           Edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        </p> */}
       </header>
     </div>
   );
