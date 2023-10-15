@@ -1,4 +1,4 @@
-#Quick app overview:
+# Quick app overview:
 
 
 ## what is this app?
@@ -15,10 +15,10 @@
 
 ## Below is the original Read me built by the company that issued me this challenge. Fell free to read their requirements and compare it to my work
 
-________________________________________________________________________________
 
 
-# consent-manager-ui
+
+# consent-manager-ui (company read me begins here)
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
 
