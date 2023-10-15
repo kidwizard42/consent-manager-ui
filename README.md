@@ -3,8 +3,7 @@
 
 ## what is this app?
     - This app is similar to a cookie banner that pops up. Its to ask users their tracking preferences. 
-    - you can find the online version of my work [here](https://strong-genie-e06688.netlify.app/)
-    - you can find the online version of my work (here)[https://strong-genie-e06688.netlify.app/]
+you can find the online version of my work [here](https://strong-genie-e06688.netlify.app/)
 
 ## Things I want attention drawn to
     - Built from scratch. No outside components used like MUI (company bonus challenge)
