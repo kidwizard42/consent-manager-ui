@@ -1,3 +1,32 @@
+#Quick app overview:
+
+
+## what is this app?
+  -This app is similar to a cookie banner that pops up. Its to ask users their tracking preferences. 
+
+## Features
+ - Saves preferences of user to respect their tracking preferences.
+ - closes 
+ - Responsive
+
+## things I want attention drawn to
+    - Built from scratch. No outside components used like MUI
+    - Consent manager doesn't cause rerenders or gets destroyed and built each time its opened.
+    - closes when clicked outside
+    -animations for the toggles
+
+
+## Below is the original Read me built by the company that issued me this challenge. Fell free to read their requirements and compare it to my work
+
+
+
+
+
+
+
+
+
+
 # consent-manager-ui
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
