@@ -2,30 +2,20 @@
 
 
 ## what is this app?
-  -This app is similar to a cookie banner that pops up. Its to ask users their tracking preferences. 
+    - This app is similar to a cookie banner that pops up. Its to ask users their tracking preferences. 
+    - you can find the online version of my work [here](https://strong-genie-e06688.netlify.app/)
 
-## Features
-   - Saves preferences of user to respect their tracking preferences.
-   - closes 
-   - Responsive
-   - sdfasf
-
-## things I want attention drawn to
-    - Built from scratch. No outside components used like MUI
-    - Consent manager doesn't cause rerenders or gets destroyed and built each time its opened.
-    - closes when clicked outside
+## Things I want attention drawn to
+    - Built from scratch. No outside components used like MUI (company bonus challenge)
+    - Consent manager doesn't cause rerenders or gets destroyed and built each time its opened. (company requriement)
+    - closes when clicked outside ( company requirement)
     - animations for the toggles
+    - saved preferences persist after page refresh
 
 
 ## Below is the original Read me built by the company that issued me this challenge. Fell free to read their requirements and compare it to my work
 
-
-
-
-
-
-
-
+________________________________________________________________________________
 
 
 # consent-manager-ui
